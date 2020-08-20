@@ -1,3 +1,4 @@
+
 # use virtualenv to install all python requirements
 VENVDIR=venv
 virtualenv --python=/usr/bin/python3 $VENVDIR
@@ -24,6 +25,5 @@ EOF
 
 
 vagrant up
-
 
 export KUBECONFIG=$INV/artifacts/admin.conf
