@@ -15,9 +15,6 @@ sh ../vagrant.sh
 ```
 # Storage
 
-Install one of the following:
-- local path provisioner
-- ceph rook
 
 ## Install local path provisioner
 
@@ -31,6 +28,8 @@ Set default storage class
 kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
 ```
 
+
+# Work in progress, use at your own risk.....
 
 ## Install Rook storage
 
