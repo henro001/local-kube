@@ -1,3 +1,6 @@
 [submodule "kubespray"]
 	path = kubespray
 	url = https://github.com/kubernetes-sigs/kubespray
+[submodule "rook"]
+	path = rook
+	url = https://github.com/rook/rook.git
