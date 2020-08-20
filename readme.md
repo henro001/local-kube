@@ -1,6 +1,7 @@
 ## Requirements
 - virtualbox or libvirt
 - python virtualenv
+- vagrant
 
 ## Steps:
 Initialize kubespray submodule
